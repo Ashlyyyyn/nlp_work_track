@@ -1,0 +1,16 @@
+﻿# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Project outputs (auto-generated)
+models/
+results/
+
+# Data (if too large)
+data/dataset.csv
+
+# IDE
+.vscode/
+.idea/
