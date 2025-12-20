@@ -17,6 +17,11 @@ python src/interpret_tfidf.py
 python src/train_w2v_lr.py
 python src/interpret_w2v.py
 
+python src/train_tfidf_svm.py
+python src/analyze_dataset.py
+python src/error_analysis_tfidf.py
+python src/compare_results.py
+
 Outputs:
 - models/...
 - results/...
