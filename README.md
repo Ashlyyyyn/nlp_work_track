@@ -21,6 +21,9 @@ python src/train_tfidf_svm.py
 python src/analyze_dataset.py
 python src/error_analysis_tfidf.py
 python src/compare_results.py
+python src/train_tfidf_nb.py
+python src/eval_confusion.py --model models/tfidf_lr.joblib
+python src/predict_texts.py --model models/tfidf_lr.joblib --text "示例文本"
 
 Outputs:
 - models/...
