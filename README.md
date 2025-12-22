@@ -24,6 +24,9 @@ python src/compare_results.py
 python src/train_tfidf_nb.py
 python src/eval_confusion.py --model models/tfidf_lr.joblib
 python src/predict_texts.py --model models/tfidf_lr.joblib --text "示例文本"
+python src/kfold_tfidf_lr.py --k 5
+python src/tfidf_top_features.py --model models/tfidf_lr.joblib --topn 30
+python src/length_bucket_analysis.py --model models/tfidf_lr.joblib
 
 Outputs:
 - models/...
