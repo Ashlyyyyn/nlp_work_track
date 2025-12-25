@@ -4,8 +4,18 @@ Compare:
 - TF-IDF (char n-gram) + Logistic Regression
 - Word2Vec (char) mean pooling + Logistic Regression
 
+## NLP/LLM 课程题目与示例代码
+- 题目整理：`exercises/`（按章节）
+- 可运行最小示例：`code/`
+- Prompt 任务模板：`prompts/prompt_tasks.md`
+
 ## Setup
 pip install -r requirements.txt
+
+## Course extras
+Run examples:
+- `python code/vit_patchify.py`
+- `python code/clip_contrastive.py`
 
 ## Data
 Put `data/dataset.csv` with columns: text,label
