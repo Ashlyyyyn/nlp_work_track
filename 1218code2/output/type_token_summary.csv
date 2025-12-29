@@ -1,5 +1,0 @@
-group,essay_count,word_count,sentence_count,dependency_count,match_count,filtered_match_count,collocation_tokens,collocation_types,type_token_ratio
-overall,754,135709,9045,135709,19284,0,19284,5286,0.27411325451151214
-low,321,55537,3694,55537,7655,0,7655,2768,0.3615937295885042
-high,432,79959,5338,79959,11597,0,11597,3530,0.30438906613779426
-unscored,1,213,13,213,32,0,,,
